@@ -9,6 +9,11 @@ To use this project , you will be required to have these softwares
 2. Visual Studio (2017 used for this project)
 3. .Net Framework 7.2
 
+### Conventions
+- NTIer Archietecture
+- MVC
+- Business and Data layer implementation separately 
+
 ### Features
 -  Register New Employee
 -  Update Existing Employee
