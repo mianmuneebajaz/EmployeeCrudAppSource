@@ -1,0 +1,59 @@
+﻿@model UsersCrudApp.WebUI.Models.UserModel
+
+@{
+    Layout = null;
+}
+
+
+@using (Html.BeginForm("Add","Employee"))
+{
+    @Html.AntiForgeryToken()
+     
+    <div class="form-group">
+        @Html.LabelFor(model => model.FullName, htmlAttributes: new { @class = "col-md-3 control-label" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control col-md-12" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-5" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control  col-md-12" } })
+        </div>
+    </div>
+ 
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.About, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.About, new { htmlAttributes = new { @class = "form-control col-md-12" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CNIC, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.CNIC, new { htmlAttributes = new { @class = "form-control  col-md-12" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "mr-sm-2 control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control  col-md-12" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Salary, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.Salary, new { htmlAttributes = new { @class = "form-control col-md-12" } })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-12">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+}

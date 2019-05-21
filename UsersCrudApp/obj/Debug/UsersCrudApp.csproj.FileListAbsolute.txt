@@ -1,0 +1,12 @@
+C:\proj\UsersCrudApp\UsersCrudApp\bin\Debug\UsersCrudApp.dll.config
+C:\proj\UsersCrudApp\UsersCrudApp\bin\Debug\UsersCrudApp.dll
+C:\proj\UsersCrudApp\UsersCrudApp\bin\Debug\UsersCrudApp.pdb
+C:\proj\UsersCrudApp\UsersCrudApp\bin\Debug\EntityFramework.dll
+C:\proj\UsersCrudApp\UsersCrudApp\bin\Debug\EntityFramework.xml
+C:\proj\UsersCrudApp\UsersCrudApp\obj\Debug\UsersCrudApp.csprojAssemblyReference.cache
+C:\proj\UsersCrudApp\UsersCrudApp\obj\Debug\UsersCrudApp.csproj.CoreCompileInputs.cache
+C:\proj\UsersCrudApp\UsersCrudApp\obj\Debug\UsersCrudApp.csproj.CopyComplete
+C:\proj\UsersCrudApp\UsersCrudApp\obj\Debug\UsersCrudApp.dll
+C:\proj\UsersCrudApp\UsersCrudApp\obj\Debug\UsersCrudApp.pdb
+C:\proj\UsersCrudApp\UsersCrudApp\obj\Debug\UsersCrudApp.Migrations.RemovedDOb.resources
+C:\proj\UsersCrudApp\UsersCrudApp\obj\Debug\UsersCrudApp.csproj.GenerateResource.cache
